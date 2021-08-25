@@ -11,7 +11,7 @@
 3.  After this 'Logged in' message, open a new tab and go to this link 'https://dashboard.heroku.com/apps'. On the right hand side you'll get 'New' button for creating new app.
      select new app.
 	 
-	 Add your app name in their like 'review ineuron' and keep the region as 'United states' . Then hit create app. Now you'll get the commands how to deploy your app in heroku.
+	 Add your app name in their like 'review ' and keep the region as 'United states' . Then hit create app. Now you'll get the commands how to deploy your app in heroku.
 	 
 4. Create new env with this command 'conda create -n test python=3.7'
 
@@ -22,7 +22,7 @@
 		 
 	b} Now we initialize our git with this command 'git init'
 	c). Then we check the status of git with this command 'git status'. to check the status of the git.
-	d). Then type this command for add our heroku app repository, 'heroku git:remote -a rev-ineuron'.
+	d). Then type this command for add our heroku app repository, 'heroku git:remote -a rev-testreview'.
 	e). Now we're adding our local files in git with this command 'git add .' (i.e we have a dot after git add, don't forget to add dot in that command)
     f)  Now we commit our repository from this command, git commit -am "first-commit"
 	
